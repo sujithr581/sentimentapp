@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url('1.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100%;
+}
+</style>
+<title>Sentiment Analysis App</title>
+<?PHP
+        echo shell_exec("python script.py");
+        ?>
+</head>
+<body>
+<center><h1>Sentiment Analysis App</h1><center>
+<center><p>Type a sentence.click on the submit button and wait for your prediction.</p><center>
+<form>
+  <input type="text">
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
